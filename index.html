@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вертуальная экскурсия</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<script src='ec.js'></script>
+	<header class="header">
+	<div class="header_inner">
+	</div>
+	<div class="txt">
+		<div class="txt2">
+			<h1>Вертуальная экскурсия по моему двору</h1>
+			<a href="#locationtxt"><h1>Впepёд</h1></a>
+		</div>
+
+	</div>	
+	</header>
+	<main>
+		<div class="location">
+			<p class="loctxt" id = "locationtxt">Выберите Локацию: </p>
+			<select size="1" id="vibiralka" onchange="viborka()">
+				<option value="defolt" id="choose">Локация</option>
+				<option id="l1" value="ll1">
+					<div class="l1">
+					Въезд во двор
+					</div>
+				</option>
+
+				<option id="l2" value="ll2">
+					<div class="l2">
+					Маленькая парковка
+					</div>	
+				</option>
+
+				<option id="l3" value="ll3">
+					<div class="l3">
+					Большая парковка
+					</div>	
+					</option>
+
+				<option id="l4" value="ll4">
+					<div class="l4">
+					Машина
+					</div>	
+				</option>
+
+				<option id="l5" value="ll5">
+					<div class="l5">
+					Дом
+					</div>	
+				</option>
+		</select>
+		</div> 
+		<!-- cabinets -->
+
+		<div class="imgs">
+			<img src="foto/map_start.jpg" alt="" class="loc1 hidden" id="loc">
+			<img src="foto/mal_p.jpg" alt="" class="loc2 hidden" id="loc">
+			<img src="foto/big_p.jpg" alt="" class="loc3 hidden" id="loc">
+			<img src="foto/my_Car.jpg" alt="" class="loc4 hidden" id="loc">
+			<img src="foto/my_home.jpg" alt="" class="loc5 hidden" id="loc">
+			<img src="foto/smail.jpg" alt="" class="smail hidden" id="loc">
+		</div>
+	</main>
+    <footer>
+    	<P>Работу выполнил Малованов Н.О</P>
+    </footer>
+</body>
+</html>
